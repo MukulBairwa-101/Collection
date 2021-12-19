@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Roboto','Poppins' sans-serif; */
+}
+.App h3{
+    margin:2rem auto;
+    padding:1rem;
+    width:68%;
+    
+}
+.image_c{
+width:70%;
+display: flex;
+margin-left: -1rem;
+margin-bottom: 1rem;
+}
+.image_c img{
+    width:50%;
+    
+}
+.container_h{
+    display: flex;
+    padding:2rem;
+    justify-content: center;
+}
+.input_d{
+    display: flex;
+    flex-direction: column;
+    padding:.6rem;
+}
+.input_r{
+    width:60%;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    
+}
+.typo_r{
+    display: flex;
+    flex-direction: column;
+    
+}
+.input_span{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: -2rem ;
+}
+.close{
+   cursor: pointer;
+   display: flex;
+   justify-content: flex-end;
+}
+.inputProp{
+    display: flex;
+    justify-content: space-between;
+}
+.social_links{
+    display: flex;
+   
+}
+.link{
+    padding-right: 1.5rem;
+    font-size: 1.2rem;
+}
+.headers_f{
+    display: flex;
+}
+.headers_f h4{
+    padding-right: 4.5rem;
+    font-size: .9rem;
+}
+section{
+    display: flex;
+
+}
+.link-q,.link-c,.empty_h{
+    display: flex;
+    flex-direction: column;
+    font-size: .8rem;
+    padding-right: 2.1rem;
+    
+
+}
+.link-q a,.link-c a,.empty_h a{
+    text-decoration: none;
+    color:white;
+    padding-bottom:1.5rem ;
+}
+.footer_input_1,.footer_input_1_2{
+    padding:.7rem;
+    border:none;
+    outline: none;
+    background-color: #4fa6d1;
+    color:white;
+    width:40%;
+    border-radius: .6rem;
+    margin-top: 1rem;
+    letter-spacing: .1rem;
+    font-size: .7rem;
+    margin-left: .5rem;
+}
+.footer_input_1_2{
+    width: 63%; 
+         
+}
+.footer_input_1::placeholder{
+    color: white;
+    font-weight: 600;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: .5rem;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    border-radius: .5rem;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+
+  }
+  label{
+      font-weight: 700;
+      font-size: 1rem;
+      padding:.5rem 0rem;
+  }
