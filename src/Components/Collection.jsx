@@ -14,6 +14,8 @@ import Button from '@material-ui/core/Button';
 import Input from '@material-ui/core/Input';
 import {AiOutlineCloseCircle} from "react-icons/ai" 
 import image1 from "../image1.png"
+import image4 from "../image4.png"
+import image5 from "../image5.png"
 import Component from './Component';
 const useStyles = makeStyles({
     rootContainerModal:{
@@ -27,15 +29,16 @@ const useStyles = makeStyles({
     },
     fbtn:{
         background: 'white',
-        color: ' #467cce',
+        color: ' #4cb5ee ',
         fontSize:'13px',
         padding:'.3rem',
         borderRadius:'1rem',
         width:'50%',
         marginLeft:'10rem',
         marginTop:'1.5rem',
-        fontWeight:'600',
-        border:".1rem solid #467cce "
+        fontWeight:'700',
+        border:".1rem solid #4cb5ee  "
+
     },
     gridTypo:{
         fontSize:'1rem',
@@ -43,19 +46,19 @@ const useStyles = makeStyles({
 
     },
     extbtn:{
-        background: 'linear-gradient(180deg, #4e8ad8 90%, #467cce 30%)',
-        boxShadow: '0 3px 5px 2px #eeecec4c',
+      background: 'linear-gradient(180deg, #2d80ad 90%, #397291 30%)',
         color: 'white',
         fontSize:'13px',
         padding:'.5rem',
-        borderRadius:'1rem',
+        borderRadius:'1.5rem',
         width:'35%',
         margin:'1rem 2rem',
         fontWeight:'600',
+        letterSpacing:'.1rem',
     },
     btn: {
-        background: 'linear-gradient(180deg, #4e8ad8 90%, #467cce 30%)',
-        boxShadow: '0 3px 5px 2px rgba(255, 105, 135, .3)',
+        background: 'linear-gradient(180deg, #2d80ad 90%, #397291 30%)',
+        letterSpacing:'.1rem',
         color: 'white',
         fontSize:'10px',
         padding:'.3rem',
@@ -66,15 +69,15 @@ const useStyles = makeStyles({
   
       },
     modalSBtn:{
-        background: 'linear-gradient(180deg, #4e8ad8 90%, #467cce 30%)',
-        boxShadow: '0 3px 5px 2px rgba(255, 105, 135, .3)',
-        color: 'white',
+      background: 'linear-gradient(180deg, #2d80ad 90%, #397291 30%)',
         fontSize:'13px',
         padding:'.3rem',
         borderRadius:'1rem',
         width:'70%',
         margin:'1rem auto',
         fontWeight:'600',
+        color:"#fff",
+        letterSpacing:'.1rem',
     }  ,
       gridTypoinnerspan:{
         fontSize:'.7rem',
@@ -85,7 +88,8 @@ const useStyles = makeStyles({
     },
     creBtn:{
         width:'50%',
-        fontSize:'2rem'
+        fontSize:'2rem',
+        letterSpacing:'.1rem',
     },
     innergridItem:{
         borderRadius:'.8rem',
@@ -202,13 +206,13 @@ const Collection = () => {
         </Typography>
         <Grid container spacing={2} className={classes.outergrid} >
             <Grid item sm={2} className={classes.innergridItem} onClick={handleFix}>
-                <MdAddCircle className={classes.creBtn}  />
+            <img src={image4} className={classes.img} alt ="image4" />
                 <h4 >Fixed Price</h4>
                 
             </Grid>
 
             <Grid item sm={2} className={classes.innergridItem} onClick={handleTimed}>
-               <img src={image1} className={classes.img} alt ="image1" />
+               <img src={image5} className={classes.img} alt ="image5" />
                 <h4>Timed Function</h4>
                 
             </Grid>

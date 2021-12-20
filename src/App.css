@@ -7,7 +7,7 @@
     margin:2rem auto;
     padding:1rem;
     width:68%;
-    
+    font-size:1.5rem;
 }
 .image_c{
 width:70%;
@@ -108,26 +108,29 @@ section{
     color: white;
     font-weight: 600;
 }
+.wavy{
+    position: absolute;
+    border:0;
+    left:0;
+    margin-top:350px;
+}
 
 ::-webkit-scrollbar {
     width: 0px;
   }
   
-  /* Track */
+
   ::-webkit-scrollbar-track {
     box-shadow: inset 0 0 5px grey; 
     border-radius: .5rem;
   }
    
-  /* Handle */
+
   ::-webkit-scrollbar-thumb {
     border-radius: .5rem;
   }
   
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
 
-  }
   label{
       font-weight: 700;
       font-size: 1rem;

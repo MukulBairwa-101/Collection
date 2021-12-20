@@ -5,7 +5,7 @@ import Input from '@material-ui/core/Input';
 import { makeStyles } from '@material-ui/core/styles';
 const useStyles = makeStyles({
     root:{
-        margin:".5rem -1rem",
+        margin:".5rem -1.5rem",
         width:"60%",
     },
     gridTypoinnerR:{
@@ -20,16 +20,18 @@ const useStyles = makeStyles({
         fontWeight:'700',
         display: 'flex',
         flexWrap:'wrap',
-        
         marginTop:'1rem',
     },
+    heading:{
+        color:"#4cb5ee ",
+    }
 })
 const Component = () => {
     const classes = useStyles();
     return (
         <Container maxWidth="md"className={classes.root} >
             <div>
-            <h4>Unlock Once Purchased</h4>
+            <h4 className={classes.heading}>Unlock Once Purchased</h4>
             </div>
             <div>
             <Typography id="modal-modal-description" className={classes.gridTypoinnerR}>

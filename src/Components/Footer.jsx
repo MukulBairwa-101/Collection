@@ -9,31 +9,13 @@ import {FiLinkedin,FiTwitter} from "react-icons/fi"
 import {BsArrowRightShort} from "react-icons/bs"
 const useStyles = makeStyles({
     footerContainer:{
-    //    backgroundColor:'#499bee',
+       backgroundColor:'#499bee',
        width:'100%',
-       height: '600px',
+       height: '470px',
        color:'white',
        display: 'flex',
        padding: '1.5rem',
-       backgroundImage: 'linear-gradient(315deg, #499bee 0%, #499bee 74%)',
-       '&:before':{
-        content: "",
-        position: "absolute",
-        bottom: '0',
-        left: '0',
-        width: "100%",
-        height: "250px",
-        background: "url(https://media.geeksforgeeks.org/wp-content/uploads/20200326181026/wave3.png)",
-        backgroundSize: "cover",
-        backgroundRepeat: "no-repeat",
-       }
-    },
-    // .pattern {
-    //     position: relative;
-    //     background-color: #3bb78f;
-    //     background-image: linear-gradient(315deg,
-    //             #3bb78f 0%, #0bab64 74%);
-    // }
+       },
     footertypo:{
         fontSize:'.9rem',
     },
@@ -114,8 +96,8 @@ const Footer = () => {
            </div>
 
             </Grid>
-            
-            
+        
+            <svg className="wavy" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#499bee" fill-opacity="1" d="M0,128L60,149.3C120,171,240,213,360,202.7C480,192,600,128,720,138.7C840,149,960,235,1080,256C1200,277,1320,235,1380,213.3L1440,192L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
        
     </Container>
     )

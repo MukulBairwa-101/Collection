@@ -5,7 +5,7 @@ import image3 from "../image3.png";
 import {FiSearch} from "react-icons/fi"
 const useStyles = makeStyles({
     rootnav:{
-        borderBottom:'.1rem solid gray',
+        borderBottom:'.1rem solid #e8e8e8',
         padding:'.6rem',
         display:'flex',
     },

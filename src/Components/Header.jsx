@@ -17,9 +17,10 @@ const useStyles = makeStyles({
 
     },
     btn: {
-      background: 'linear-gradient(180deg, #4e8ad8 90%, #467cce 30%)',
+      background: 'linear-gradient(180deg, #2d80ad 90%, #397291 30%)',
       color: 'white',
       fontSize:'8px',
+      letterSpacing:'.1rem',
       padding:'.5rem',
       borderRadius:'1rem',
       width:'40%',
