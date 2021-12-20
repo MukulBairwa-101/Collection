@@ -19,6 +19,11 @@ margin-bottom: 1rem;
     width:50%;
     
 }
+.avatar_nav{
+    width:5%;
+    padding:.2rem;
+    margin-left: .5rem;
+}
 .container_h{
     display: flex;
     padding:2rem;
